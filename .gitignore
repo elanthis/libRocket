@@ -7,3 +7,8 @@ Build/build/
 *.opensdf
 *.sdf
 *.vcxproj.user
+*.suo
+bin/*
+Build/Debug
+Build/Release
+Build/ipch
