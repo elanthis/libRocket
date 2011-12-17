@@ -12,3 +12,7 @@ bin/*
 Build/Debug
 Build/Release
 Build/ipch
+Samples/invaders/scores.txt
+Samples/invaders/Debug
+Samples/shell/Debug
+Samples/invaders/ipch

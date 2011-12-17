@@ -39,7 +39,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\bin\</OutDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)_d</TargetName>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\bin\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -49,7 +51,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>freetype248MT_D.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>..\bin\$(ProjectName)_d.dll</OutputFile>
+      <OutputFile>$(SolutionDir)..\bin\$(ProjectName)_d.dll</OutputFile>
       <AdditionalLibraryDirectories>$(SolutionDir)..\..\support\lib;$(SolutionDir)..\Dependencies\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention>
@@ -63,7 +65,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>freetype248MT.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <OutputFile>..\bin\$(ProjectName).dll</OutputFile>
+      <OutputFile>$(SolutionDir)..\bin\$(ProjectName).dll</OutputFile>
       <AdditionalLibraryDirectories>$(SolutionDir)..\..\support\lib;$(SolutionDir)..\Dependencies\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention>
