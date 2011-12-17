@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Elements">
+      <UniqueIdentifier>{9b86bcb6-55bc-422a-bc8e-2a3859fb3240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompiled Header">
+      <UniqueIdentifier>{aaff8f4e-d356-4237-9579-ff86d09f2aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataSource">
+      <UniqueIdentifier>{18f90f7c-2812-4372-a896-1511159ff7bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Controls\Python\DataGridRowProxy.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\Python\ElementInterface.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\Python\SelectOptionProxy.cpp">
+      <Filter>Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\Python\precompiled.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\Python\DataFormatterWrapper.cpp">
+      <Filter>DataSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\Python\DataSourceWrapper.cpp">
+      <Filter>DataSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\Python\Module.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Controls\Python\DataGridRowProxy.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\Python\ElementInterface.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\Python\SelectOptionProxy.h">
+      <Filter>Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\Python\precompiled.h">
+      <Filter>Precompiled Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\Python\DataFormatterWrapper.h">
+      <Filter>DataSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\Python\DataSourceWrapper.h">
+      <Filter>DataSource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\Python\Module.h" />
+  </ItemGroup>
+</Project>

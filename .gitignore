@@ -2,3 +2,8 @@
 *.pyc
 # Ignore MacOSX directory info
 .DS_Store
+
+Build/build/
+*.opensdf
+*.sdf
+*.vcxproj.user
