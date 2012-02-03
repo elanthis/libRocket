@@ -16,3 +16,5 @@ Samples/invaders/scores.txt
 Samples/invaders/Debug
 Samples/shell/Debug
 Samples/invaders/ipch
+Dependencies/freetype
+Dependencies/lib/
