@@ -51,6 +51,12 @@ public:
 	RenderInterface();
 	virtual ~RenderInterface();
 
+	/// Called by Rocket before rendering anything.
+	virtual void BeginRender() = 0;
+
+	/// Called by Rocket after rendering everything.
+	virtual void EndRender() = 0;
+
 	/// Called by Rocket when it wants to render geometry that the application does not wish to optimise. Note that
 	/// Rocket renders everything as triangles.
 	/// @param[in] vertices The geometry's vertex data.
