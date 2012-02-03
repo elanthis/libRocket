@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Plugin">
+      <UniqueIdentifier>{7eced3e6-b435-42c9-b6f8-f1aba55f4107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms">
+      <UniqueIdentifier>{250b0e35-f1fd-4611-94ae-56294a06d9d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\Controls">
+      <UniqueIdentifier>{c3c8af75-970e-4d09-971f-4891a84cc78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\Controls\Widgets">
+      <UniqueIdentifier>{5f6b32b2-3dbc-416e-b648-4194413ba77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\Controls\Input Types">
+      <UniqueIdentifier>{ab33585b-d1c0-4319-b614-030c0bafe9d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\Parsers">
+      <UniqueIdentifier>{40182ef0-99f7-484e-987a-643e6d149020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Forms\Clipboard">
+      <UniqueIdentifier>{798c1cde-ecf9-4464-8e70-10c4d9e734ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tab Set">
+      <UniqueIdentifier>{1b830310-fdac-4efb-b89d-1ad6351998ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tab Set\Parser">
+      <UniqueIdentifier>{16b16c0d-117d-47a4-9f78-334d62e97d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Grid">
+      <UniqueIdentifier>{62fa8971-338f-434b-a4c9-33610a8c2c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Grid\Parser">
+      <UniqueIdentifier>{be15de9e-a375-4645-8691-278661c6c630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Grid\Data Source">
+      <UniqueIdentifier>{a39188d4-ac3e-41bd-b2ea-0cec5aa1a991}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Controls\Controls.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementForm.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementFormControl.cpp">
+      <Filter>Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementFormControlDataSelect.cpp">
+      <Filter>Forms\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementFormControlInput.cpp">
+      <Filter>Forms\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementFormControlSelect.cpp">
+      <Filter>Forms\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementFormControlTextArea.cpp">
+      <Filter>Forms\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\SelectOption.cpp">
+      <Filter>Forms\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementTextSelection.cpp">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\WidgetDropDown.cpp">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\WidgetSlider.cpp">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\WidgetSliderInput.cpp">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\WidgetTextInput.cpp">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\WidgetTextInputMultiLine.cpp">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\WidgetTextInputSingleLine.cpp">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\WidgetTextInputSingleLinePassword.cpp">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\InputType.cpp">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\InputTypeButton.cpp">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\InputTypeCheckbox.cpp">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\InputTypeRadio.cpp">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\InputTypeRange.cpp">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\InputTypeSubmit.cpp">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\InputTypeText.cpp">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\XMLNodeHandlerTextArea.cpp">
+      <Filter>Forms\Parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\Clipboard.cpp">
+      <Filter>Forms\Clipboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementTabSet.cpp">
+      <Filter>Tab Set</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\XMLNodeHandlerTabSet.cpp">
+      <Filter>Tab Set\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementDataGrid.cpp">
+      <Filter>Data Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementDataGridCell.cpp">
+      <Filter>Data Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementDataGridExpandButton.cpp">
+      <Filter>Data Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\ElementDataGridRow.cpp">
+      <Filter>Data Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\XMLNodeHandlerDataGrid.cpp">
+      <Filter>Data Grid\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\DataFormatter.cpp">
+      <Filter>Data Grid\Data Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\DataQuery.cpp">
+      <Filter>Data Grid\Data Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\DataSource.cpp">
+      <Filter>Data Grid\Data Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Controls\DataSourceListener.cpp">
+      <Filter>Data Grid\Data Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Rocket\Controls\Controls.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\Header.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\ElementForm.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\ElementFormControl.h">
+      <Filter>Forms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\ElementFormControlDataSelect.h">
+      <Filter>Forms\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\ElementFormControlInput.h">
+      <Filter>Forms\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\ElementFormControlSelect.h">
+      <Filter>Forms\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\ElementFormControlTextArea.h">
+      <Filter>Forms\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\SelectOption.h">
+      <Filter>Forms\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\ElementTextSelection.h">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\WidgetDropDown.h">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\WidgetSlider.h">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\WidgetSliderInput.h">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\WidgetTextInput.h">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\WidgetTextInputMultiLine.h">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\WidgetTextInputSingleLine.h">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\WidgetTextInputSingleLinePassword.h">
+      <Filter>Forms\Controls\Widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\InputType.h">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\InputTypeButton.h">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\InputTypeCheckbox.h">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\InputTypeRadio.h">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\InputTypeRange.h">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\InputTypeSubmit.h">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\InputTypeText.h">
+      <Filter>Forms\Controls\Input Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\XMLNodeHandlerTextArea.h">
+      <Filter>Forms\Parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\Clipboard.h">
+      <Filter>Forms\Clipboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\ElementTabSet.h">
+      <Filter>Tab Set</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\XMLNodeHandlerTabSet.h">
+      <Filter>Tab Set\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\ElementDataGrid.h">
+      <Filter>Data Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\ElementDataGridCell.h">
+      <Filter>Data Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\ElementDataGridExpandButton.h">
+      <Filter>Data Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\ElementDataGridRow.h">
+      <Filter>Data Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Controls\XMLNodeHandlerDataGrid.h">
+      <Filter>Data Grid\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\DataFormatter.h">
+      <Filter>Data Grid\Data Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\DataQuery.h">
+      <Filter>Data Grid\Data Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\DataSource.h">
+      <Filter>Data Grid\Data Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls\DataSourceListener.h">
+      <Filter>Data Grid\Data Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Rocket\Controls.h" />
+  </ItemGroup>
+</Project>

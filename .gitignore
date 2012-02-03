@@ -2,3 +2,17 @@
 *.pyc
 # Ignore MacOSX directory info
 .DS_Store
+
+Build/build/
+*.opensdf
+*.sdf
+*.vcxproj.user
+*.suo
+bin/*
+Build/Debug
+Build/Release
+Build/ipch
+Samples/invaders/scores.txt
+Samples/invaders/Debug
+Samples/shell/Debug
+Samples/invaders/ipch
